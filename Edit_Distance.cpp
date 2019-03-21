@@ -20,10 +20,12 @@ int edit_distance(string str1,string str2){
         }
     }
 
+    int distance = dp[m][n];
+
     for(int i=0;i<m;i++) delete [] dp[i];
     delete  [] dp;
 
-    return dp[m][n];
+    return distance;
 
 }
 int main() {
