@@ -28,8 +28,8 @@ int edit_distance(string str1,string str2){
     return distance;
 
 }
-int main() {
-    cout<<edit_distance("aac","bbb")<<endl;
-    cout<<edit_distance("aac","abc")<<endl;
-    return 0;
-}
+//int main() {
+//    cout<<edit_distance("aac","bbb")<<endl;
+//    cout<<edit_distance("aac","abc")<<endl;
+//    return 0;
+//}

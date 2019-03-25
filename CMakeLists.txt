@@ -3,4 +3,4 @@ project(edit_distance)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(edit_distance Edit_Distance.cpp)
+add_executable(edit_distance Edit_Distance.cpp implement-strstr.cpp)
